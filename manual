@@ -1,0 +1,27 @@
+#How to Build the CM13 From Source:
+
+##
+ *Download vendor tree and device tree from my git".
+
+ *Create directories coolpad/CP8676_I02 and place them in working_dir/device and in working_dir/vendor
+
+ *After copy files from downloaded device in working_dir/device , and from downloaded vendor in working_dir/vendor
+  
+ *Open terminal and write:
+     *cd Working_dir
+
+	 After apply patches:
+
+	 sh device/coolpad/CP8676_I02/patches/install.sh
+
+	 
+#Write Below commands in Terminal(alt+ctr+T)
+
+   * .build/envsetup.sh && Select lunch Combo
+   lunch CP8676_I02
+
+   And
+
+   mka bacon
+
+   compiling get started ! Take some Rest! your build is ready on out directory.
